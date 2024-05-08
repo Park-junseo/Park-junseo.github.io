@@ -1,7 +1,7 @@
 name: "Build and Deploy"
 on:
   repository_dispatch:
-    types: [ON_POST_UPDATED]
+    types: [RUN_WORKFLOW_DISPATCH]
 
 permissions:
   contents: write
